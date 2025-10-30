@@ -1,0 +1,3 @@
+const {PORT,CONNECTION_URL,JWT_SECRET,SENDER_EMAIL, EMAIL_PASSWORD} = process.env;
+
+module.exports = {port:PORT , connection_url:CONNECTION_URL,jwtsecret : JWT_SECRET , senderEmail: SENDER_EMAIL , emailPassword : EMAIL_PASSWORD}
